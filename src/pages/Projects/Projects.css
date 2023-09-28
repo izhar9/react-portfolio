@@ -1,6 +1,7 @@
 .project {
+    width: 93%;
     margin: 50px 0px;
-    margin-left: 140px;
+    margin-left: 120px;
   }
   
   .project hr {
@@ -57,7 +58,10 @@
     box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
     transition: all 1s ease;
   }
-  
+a.btn{
+    padding: 0px;
+    text-align: center;
+  }
   .ad-btn {
     text-transform: uppercase;
     width: 150px;
@@ -87,6 +91,7 @@
   /* =============================== */
   @media (max-width: 600px) {
     .project {
+      width: 100%;
       margin: 0;
       padding: 0;
       margin-top: 50px;

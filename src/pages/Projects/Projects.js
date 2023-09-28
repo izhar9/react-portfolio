@@ -37,7 +37,8 @@ const Projects = () => {
                   </div>
                   <a
                     href="https://github.com/izhar9/TodoList.git"
-                    className="ad-btn"
+                    className="btn ad-btn"
+                    target="_blank"
                   >
                     View
                   </a>
@@ -62,7 +63,8 @@ const Projects = () => {
                   </div>
                   <a
                     href="https://github.com/izhar9/E-DashBoard.git"
-                    className="ad-btn"
+                    className="btn ad-btn"
+                    target="_blank"
                   >
                     View
                   </a>
@@ -86,7 +88,8 @@ const Projects = () => {
                   </div>
                   <a
                     href="https://guess-the-number2.netlify.app/"
-                    className="ad-btn"
+                    className="btn ad-btn"
+                    target="_blank"
                   >
                     View
                   </a>

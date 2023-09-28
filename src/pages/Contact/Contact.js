@@ -1,10 +1,12 @@
 import "./Contact.css";
 import React, { useRef } from "react";
+import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
+  const notify = () => toast("Message Send Successfully");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -101,7 +103,9 @@ const Contact = () => {
                         />
                       </div>
                       <div className="row px-3">
-                        <button className="button">SEND MESSAGE</button>
+                        <button className="button" onClick={notify}>
+                          SEND MESSAGE
+                        </button>
                       </div>
                     </form>
                   </div>
